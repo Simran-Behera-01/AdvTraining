@@ -1,0 +1,13 @@
+
+<h1 class="text-center display-2">Template Demo</h1>
+<h2 class = "display-4">----Binding dynamic text, properties and attributes----</h2>
+<h3 class = "display-5">Text Interpolation</h3>
+<p>Title : {{title}}</p>
+<h3 class = "display-5">Binding dynamic properties and attributes</h3>
+<p>
+  Native element properties<br>
+  <button [disabled]="IsFormValid">Submit</button><br>
+  Component and Directives binding<br/>
+  <app-my-listbox [value]="MySelection"/><br/>
+  <img [ngSrc]="photoUrl" alt="User image" width="300" height="200">
+</p>
